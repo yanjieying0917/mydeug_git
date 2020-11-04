@@ -1,0 +1,182 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.mcontent {
+	padding-top: 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#canvas {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.mcontent img {
+	width: 335px;
+	height: 75px;
+}
+
+.mcontent-logo {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+.mcontent-title {
+	height: 170px;
+	line-height: 170px;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	position: relative;
+}
+
+.mcontent-title .mcontent-title-text {
+	font-size: 46px;
+	line-height: 170px;
+	font-weight: 700;
+	font-style: italic;
+	text-shadow: 0.1em 0.1em 0.6em rgba(0,193,222,1);
+}
+
+.mcontentBox {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	position: relative;
+	padding: 100px 72px 45px;
+	background-color: rgba(3, 2, 8, .8);
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 454px;
+}
+
+.mcontentBox-angle {
+	width: 84px;
+	height: 69px;
+	display: block;
+	/*背景图片 没找到好看的*/
+}
+
+.mcontentBox-angle1 {
+	position: absolute;
+	top: 0;
+	left: -2px;
+}
+
+.mcontentBox-angle2 {
+	transform: rotate(90deg);
+	position: absolute;
+	top: 6px;
+	right: -8px;
+}
+
+.mcontentBox-angle3 {
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 2px;
+	right: 0;
+}
+
+.mcontentBox-angle4 {
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 7px;
+	left: -8px;
+}
+
+.form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+input {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	color: #fff;
+}
+
+.input {
+	width: 454px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+input:-webkit-autofill {
+	-webkit-text-fill-color: #fff;
+	-webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 1) inset;
+}
+
+.icon {
+	display: block;
+	width: 40px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	border-right: 1px solid #ccc;
+	z-index: 9;
+	color: cornsilk;
+	font-size: 25px;
+}
+
+.verifyCode {
+	height: 40px;
+	line-height: 40px;
+}
+
+.verifyCode img {
+	height: 40px;
+	width: 70px;
+	margin-left: 30px;
+}
+
+#loginform-verifycode {
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	float: left;
+}
+
+.logbtn_box {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#log_btn {
+	width: 100%;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	background: rgba(0, 193, 222, 1);
+	color: #fff;
+}
+
+.gotolog {
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.form-group p {
+	color: red;
+}

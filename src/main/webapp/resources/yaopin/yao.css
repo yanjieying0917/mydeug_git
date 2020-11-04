@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #3e8f3e;
+}
+
+#header {
+    position: relative;
+    padding: 1px 1px 27px 0;
+}
+
+h1 {
+    color: pink;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/*#categoryList li
+ul{position:absolute;top:0px;width:0px;left:160px;
+opacity:0;overflow:hidden;}
+#categoryList li:hover ul{display:block;
+opacity:1;width:160px;}
+
+#categoryList li a{color:#BACC00;}
+
+
+
+#categoryList .count{background:rgba(255,255,255,0.2);
+	font-size:5px;border-radius:3px;display:inline-block;float:right;padding:7px 5px 6px;line-height:0px;margin-top:9px;
+	
+}
+#categoryList li ul li:first-child a
+{color:red;}
+#categoryList li ul li:last-child a
+{color:blue;}
+
+/*#header{position:relative;padding:80px 40 27px 0;}
+h1{color:white;font-size:60px;line-height:35px;text-align: center;margin-top:15px;margin-bottom:35px;}
+/*#search{text-align: center;margin-bottom:20px;}
+.sf_input{border-radius:32px;font-size:20px;width:670px;background-image: url("images/sprite.png");background-position:-740px -125px;background-repeat:no-repeat;box-shadow: inset 0 4px 12px #b4b4b4,0 0 6px rgba(0,0,0,0.3);padding:18px 20px 12px 65px;}
+.sf_input:focus{background-color:lightgreen*/
+
+
+.album200 {
+    height: 220px;
+    width: 250px;
+    margin: 0 0 35px;
+    padding: 1px 20px 0;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    letter-spacing: -0.2px;
+    position: relative;
+    font-size: 10px;
+}
+
+.coverAlbum:hover {
+    transform: scale(1.2);
+}
+
+
+.coverAlbum {
+    display: block;
+    position: relative;
+    margin-top: 0px;
+}
+
+.album200:hover .coverAlbum {
+    margin-top: 34px;
+}
+
+.album200 a {
+    color: white;
+}
+
+#content img:hover {
+    zoom: 2;
+}
+
+figure {
+    position: relative;
+    width: 450px;
+    padding-top: 20px;
+}
+
+img {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 3px 1px 20px white;
+}
